@@ -1,5 +1,4 @@
 # Advanced Seminar Operations & Supply Chain Management (WIB22964): Logistics and Supply Chain Management
- ==============================
  ## ECML_PKDD_TaxiTrajectoryPrediction
 As part of the Advanced Seminar Class at the Technical University of Munich, I wrote a seminar paper and performed data analysis on a former Kaggle competition on prediction taxi trajectories. 
 
