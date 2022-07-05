@@ -1,6 +1,5 @@
 # Advanced Seminar Operations & Supply Chain Management (WIB22964): Logistics and Supply Chain Management
- ## ECML_PKDD_TaxiTrajectoryPrediction
-As part of the Advanced Seminar Class at the Technical University of Munich, I wrote a seminar paper and performed data analysis on a former Kaggle competition on prediction taxi trajectories. 
+As part of the Advanced Seminar Class at the Technical University of Munich, I wrote a seminar paper and performed data analysis on a former Kaggle competition on prediction taxi trajectories. The link the the former Kaggle competition is shown below
 
 https://www.kaggle.com/competitions/pkdd-15-predict-taxi-service-trajectory-i/overview
 
@@ -14,8 +13,8 @@ The project was developed with Python 3.9. We used Pycharm as our IDE as well as
 item !kaggle competitions download -c pkdd-15-predict-taxi-service-trajectory-i
 
 Two Google Colab files were used with Python 3.9. The following files have both been shared via the submission process. 
-*AS-LSCM.ipynb: the main Jupyter Notebook which contains all information on the processing of the taxi mobility and FourSquare data
-*AS-FourSquare.ipynb: the Jupyter Notebook which contains the code to process the FourSquare version 3 API
+* AS-LSCM.ipynb: the main Jupyter Notebook which contains all information on the processing of the taxi mobility and FourSquare data
+* AS-FourSquare.ipynb: the Jupyter Notebook which contains the code to process the FourSquare version 3 API
 
 The file for the points of interest is in the form of an excel file called pointsofinterest.xlsx that was then read into the Google Colab file and turned into a data frame. 
  
