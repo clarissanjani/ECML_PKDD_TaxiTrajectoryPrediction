@@ -10,6 +10,21 @@ https://www.kaggle.com/competitions/pkdd-15-predict-taxi-service-trajectory-i/ov
  ## Environment
 The project was developed with Python 3.9. We used Pycharm as our IDE as well as used JupyterLab to run our notebooks. It is possible to run the notebooks also on Jupyter Notebook. We also create a scenario in Vadere as part of the bonus question in Task 4. 
  ## How to test the software
+ With regards to the data, the main taxi mobility data is extracted from the Kaggle API that is installed in Colab. To authenticate with Kaggle, it is required to create an API token from the individual account which will then trigger the download of kaggle.json, a file containing the API credentials \cite{Kaggle_InstallingAPI}. Once already authenticated, it is then possible to download the dataset with the following command: 
+
+\begin{enumerate}
+    \item !kaggle competitions download -c pkdd-15-predict-taxi-service-trajectory-i
+\end{enumerate}
+
+Two Google Colab files were used with Python 3.9. The following files have both been shared via the submission process. 
+\begin{itemize}
+    \item AS-LSCM.ipynb: the main Jupyter Notebook which contains all information on the processing of the taxi mobility and FourSquare data
+    \item AS-FourSquare.ipynb: the Jupyter Notebook which contains the code to process the FourSquare version 3 API
+\end{itemize}
+
+The file for the points of interest is in the form of an excel file called pointsofinterest.xlsx that was then read into the Google Colab file and turned into a data frame. 
+ 
+ 
 Each task has its own separate folder structure with the relevant JupyterLab / Jupyter Notebook and python scripts. 
  ------------
 
