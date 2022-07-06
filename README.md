@@ -12,41 +12,9 @@ The project was developed with Python 3.9. We used Pycharm as our IDE as well as
 
 item !kaggle competitions download -c pkdd-15-predict-taxi-service-trajectory-i
 
-Two Google Colab files were used with Python 3.9. The following files have both been shared via the submission process. 
+Two Google Colab files were run with Python 3.9. The following files have both been shared via the submission process. 
 * AS-LSCM.ipynb: the main Jupyter Notebook which contains all information on the processing of the taxi mobility and FourSquare data
 * AS-FourSquare.ipynb: the Jupyter Notebook which contains the code to process the FourSquare version 3 API
 
-The file for the points of interest is in the form of an excel file called pointsofinterest.xlsx that was then read into the Google Colab file and turned into a data frame. 
- 
- 
-Each task has its own separate folder structure with the relevant JupyterLab / Jupyter Notebook and python scripts. 
- ------------
-
-     ├── README.md                        
-     ├── Task 1
-     │   ├── Task 1 Part 1.ipynb    
-     │   ├── Task 1 Part 2.ipynb   
-     │   ├── Task 1 Part 3.ipynb    
-     │   ├── utils.py
-     │   └── data 
-     │     ├── pcadataset.txt 
-     │     └── data_DMAP_PCA_vadere.txt
-     │
-     ├── Task 2    
-     │   ├── diffusion_map.py   
-     │   └── diffusion_maps.ipynb  
-     │
-     ├── Task 3                
-     │   └── Task3.ipynb    
-     │
-     └── Task 4
-         ├── Task4.ipynb         
-         ├── Task4_Bonus.scenario       
-         └── data   
-           ├── FireEvac_test_set.npy 
-           └── FireEvac_train_set.npy
-
-
- ## Credits and References
- Keras. (2020). Keras documentation: Variational Autoencoder. Keras. Retrieved June 22, 2022, from https://keras.io/examples/generative/vae/ 
+The file for the points of interest is in the form of an excel file called pointsofinterest.xlsx that was then read into the Google Colab file and turned into a data frame. To analyze the part of the integration of the taxi mobility data and poitns of interest data, it would be needed to upload the pointsofinterest.xlsx, otherwise an error would appear. The Excel file is included in this Github repo. 
 
