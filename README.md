@@ -13,8 +13,10 @@ The project was developed with Python 3.9. We used Pycharm as our IDE as well as
 item !kaggle competitions download -c pkdd-15-predict-taxi-service-trajectory-i
 
 Two Google Colab files were run with Python 3.9. The following files have both been shared via the submission process. 
-* AS-LSCM.ipynb: the main Jupyter Notebook which contains all information on the processing of the taxi mobility and FourSquare data
-* AS-FourSquare.ipynb: the Jupyter Notebook which contains the code to process the FourSquare version 3 API
+* AS-LSCM.ipynb: the main Jupyter Notebook which contains all information on the processing of the taxi mobility and FourSquare data. Link to the Google colab is below, please request access if issues arise with viewing the files from Github:
+https://colab.research.google.com/drive/1YDM1uUmusxR95J4VvPqqJ_gXY1gFUvf-#scrollTo=L8RjPuVVR7YZ
+* AS-FourSquare.ipynb: the Jupyter Notebook which contains the code to process the FourSquare version 3 API, please request access if issues arise with viewing the files from Github:
+https://colab.research.google.com/drive/1gf3sDpshhdhJPzNZlNMfKISwom_9Kw9c#scrollTo=4BXSvTOYBp7V
 
 The file for the points of interest is in the form of an excel file called pointsofinterest.xlsx that was then read into the Google Colab file and turned into a data frame. To analyze the part of the integration of the taxi mobility data and poitns of interest data, it would be needed to upload the pointsofinterest.xlsx, otherwise an error would appear. The Excel file is included in this Github repo. 
 
