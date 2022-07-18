@@ -4,7 +4,7 @@ As part of the Advanced Seminar Class at the Technical University of Munich, I w
 https://www.kaggle.com/competitions/pkdd-15-predict-taxi-service-trajectory-i/overview
 
  ## Project Details
- **Description**: This paper leverages the ECML/PKDD 15 Taxi Trajectory Prediction dataset which consists of initial partial trajectories of taxi rides in Porto, Portugal. The dataset will be enriched with data from Location-Based Social Networks (LBSNs) like Foursquare that can provide the number and type of activities in an area based on predefined categories. The study compares various unsupervised learning model approaches that work with and without the point of interests data to determine whether or not adding data on hotspots is valuable in prediction taxi next destinations.  
+ **Description**: This paper leverages the ECML/PKDD 15 Taxi Trajectory Prediction dataset which consists of initial partial trajectories of taxi rides in Porto, Portugal. The dataset will be enriched with data from Location-Based Social Networks (LBSNs) like Foursquare that can provide the number and type of activities in an area based on predefined categories. The study compares various unsupervised learning model approaches that work with and without the point of interests data to determine whether or not adding data on hotspots is valuable in prediction taxi next destinations. More details on the project can be found from the seminar paper in the Github repo.
  ## Environment
 The project was developed with Python 3.9 on Google Colab. 
  ## How to test the code
